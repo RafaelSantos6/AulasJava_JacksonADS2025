@@ -11,7 +11,7 @@ public class VelocidadeMedia {
             System.out.println("Digite a distancia em KM");
             double distancia = scanner.nextDouble();
 
-            double VelocidadeMedia = distancia / tempo ;
+            double VelocidadeMedia = distancia / tempo;
             System.out.println("" + VelocidadeMedia);
 
         } catch (Exception e) {
@@ -23,4 +23,3 @@ public class VelocidadeMedia {
 
     }
 }
-
